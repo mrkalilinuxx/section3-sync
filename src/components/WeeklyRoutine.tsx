@@ -23,22 +23,8 @@ interface WeeklyRoutineProps {
 
 export function WeeklyRoutine({ isAdmin }: WeeklyRoutineProps) {
   const [routine, setRoutine] = useState<TimeSlot[]>([
-    { id: "1", time: "8:00 - 8:50", monday: "Introduction to C
-Programming LAB Gr A
-(LSH)
-LAB-202
-Introduction to C
-Programming LAB Gr B
-(NF_BCA_C2)
-LAB-204", tuesday: "Mathematics", wednesday: "Database", thursday: "Web Development", friday: "Computer Networks" },
-    { id: "2", time: "8:50 - 9:40", monday: "Introduction to C
-Programming LAB Gr A
-(LSH)
-LAB-202
-Introduction to C
-Programming LAB Gr B
-(NF_BCA_C2)
-LAB-204", tuesday: "Programming in C", wednesday: "Web Development", thursday: "Database", friday: "Operating System" },
+    { id: "1", time: "9:00 - 10:00", monday: "Programming in C", tuesday: "Mathematics", wednesday: "Database", thursday: "Web Development", friday: "Computer Networks" },
+    { id: "2", time: "10:00 - 11:00", monday: "Mathematics", tuesday: "Programming in C", wednesday: "Web Development", thursday: "Database", friday: "Operating System" },
     { id: "3", time: "11:00 - 12:00", monday: "Database", tuesday: "Computer Networks", wednesday: "Mathematics", thursday: "Programming in C", friday: "Web Development" },
     { id: "4", time: "12:00 - 1:00", monday: "Break", tuesday: "Break", wednesday: "Break", thursday: "Break", friday: "Break" },
     { id: "5", time: "1:00 - 2:00", monday: "Web Development", tuesday: "Operating System", wednesday: "Computer Networks", thursday: "Mathematics", friday: "Database" },
